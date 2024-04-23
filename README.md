@@ -10,7 +10,7 @@ The project is set for interacting with a person table from a MySQL database nam
 
 You can change the connection values in application.properties to your set database, username and password -> call them in PersonRepository class by @Value.
 
-Run the application -> at a fixed interval of 10 seconds, the person database entries are checked and every processed value gets assigned a true value (or 1).
+Run the application -> at a fixed interval of 10 seconds, the person database entries are checked and every "processed" column gets assigned a true value (or 1).
 
 You can use the @PostMapping method in the controller class to periodically add new persons with processed values of false, or just use this query: update person set processed = false where id < 5. :)
 
