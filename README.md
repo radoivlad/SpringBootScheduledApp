@@ -1,6 +1,6 @@
-# SpringBootScheduledDemo (INSTALLATION GUIDE BELOW)
+# SpringBootScheduledApp (INSTALLATION GUIDE BELOW)
 
-Hello and welcome to SpringBootScheduledDemo! :)
+Hello and welcome to SpringBootScheduledApp! :)
 
 A basic Spring Boot application that tests the functionality of the @Scheduled annotation, by connecting to a MySQL database and constantly updating a boolean field at a fixed interval of 10 seconds.
 
@@ -19,7 +19,7 @@ You can use the @PostMapping method in the controller class to periodically add 
 # a. Open with Intellij, using repository link:
 
 1. Press the green button labelled "Code" (top right corner of the project files) to copy the repository link;
-2. Alternatively, you can copy it directly from here: https://github.com/radoivlad/SpringBootScheduledDemo.git
+2. Alternatively, you can copy it directly from here: https://github.com/radoivlad/SpringBootScheduledApp.git
 3. Open IntelliJ (make sure you have **Intellij Community Edition** installed);
 4. Top-left corner: **File -> New -> Project from Version Control**;
 5. Select Git as **Version control**;
@@ -32,7 +32,7 @@ You can use the @PostMapping method in the controller class to periodically add 
 
 1. Navigate to your local drive repository folder (where you would like to have the project cloned);
 2. **Right-click -> Open Git Bash here** (make sure you have **Git** installed);
-3. Type: **git clone https://github.com/radoivlad/SpringBootScheduledDemo.git** (this will create a clone of the project in the current directory);
+3. Type: **git clone https://github.com/radoivlad/SpringBootScheduledApp.git** (this will create a clone of the project in the current directory);
 4. Open IntelliJ;
 5. Top-left corner: **File -> Open**;
 6. Select the folder we cloned earlier;
