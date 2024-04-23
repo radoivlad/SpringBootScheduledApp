@@ -41,7 +41,6 @@ public class PersonController {
         }
     }
 
-    @PutMapping
     @Scheduled(fixedRate = 10000, initialDelay = 10000)
     public ResponseEntity<String> updateUnprocessedEntries() {
 
